@@ -54,6 +54,8 @@ Bug Fixes
 - Fix CloudSecretsManagerBackend invalid connections_prefix (#7861)
 - [AIRFLOW-7045] BugFix: DebugExecutor fails to change task state. (#8073)
 - BugFix: Datetimepicker is stuck on the UI (#8092)
+- [AIRFLOW-5277] Gantt chart respects per-user the Timezone UI setting (#8096)
+- Fix timezones displayed in Task Instance tooltip (#8103)
 
 
 Improvements
@@ -184,6 +186,7 @@ Doc only changes
 - [AIRFLOW-XXXX] Add explicit info about JIRAs for code-related PRs (#7318)
 - [AIRFLOW-XXXX] Fix typo commiter => committer (#7392)
 - [AIRFLOW-XXXX] Remove duplicated paragraph in docs (#7662)
+- Fix reference to KubernetesPodOperator (#8100)
 
 
 Airflow 1.10.9, 2020-02-07
